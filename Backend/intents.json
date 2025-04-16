@@ -1,0 +1,114 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good afternoon"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! Need any help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Thanks, bye"],
+      "responses": ["Goodbye! Have a great day!", "See you later!"]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Track my package", "Order status", "Check my order"],
+      "responses": ["Please provide your order ID to check the status.", "You can track your order using the tracking link in your email."]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["I want a refund", "How to request a refund?", "Return my money", "Money back policy"],
+      "responses": ["Please provide your order ID to process the refund.", "Refunds are processed within 7-10 business days."]
+    },
+    {
+      "tag": "payment_issue",
+      "patterns": ["Payment failed", "Why was my payment declined?", "Money deducted but no confirmation"],
+      "responses": ["Please check with your bank. If money was deducted, it will be refunded within 24 hours.", "Try using another payment method or contact customer support."]
+    },
+    {
+      "tag": "product_inquiry",
+      "patterns": ["Do you have this product?", "Is this available?", "Stock status"],
+      "responses": ["Please check our website for product availability.", "Let me know the product name to check stock."]
+    },
+    {
+      "tag": "technical_support",
+      "patterns": ["My app is not working", "Website is slow", "I cannot log in"],
+      "responses": ["Please try clearing your cache and restarting the app.", "Try resetting your password if you cannot log in."]
+    },
+    {
+      "tag": "complaint",
+      "patterns": ["I want to file a complaint", "Customer service is bad", "Not happy with the service"],
+      "responses": ["We are sorry for the inconvenience. Please describe your issue, and we will assist you.", "Your feedback is valuable. Please share your concern in detail."]
+    },
+    {
+      "tag": "faq_shipping",
+      "patterns": ["How long does shipping take?", "When will my order arrive?", "Shipping time"],
+      "responses": ["Shipping usually takes 3-5 business days, depending on your location.", "You can check the estimated delivery date in your order confirmation email."]
+    },
+    {
+      "tag": "faq_return",
+      "patterns": ["Can I return my order?", "What is the return policy?", "How to return a product?"],
+      "responses": ["You can return your product within 30 days of delivery.", "Please visit our returns page for detailed instructions."]
+    },
+    {
+      "tag": "faq_discount",
+      "patterns": ["Do you have any discounts?", "Any promo codes available?", "How to get a discount?"],
+      "responses": ["You can check our website for ongoing discounts and promo codes.", "Subscribe to our newsletter for exclusive offers."]
+    },
+    {
+      "tag": "faq_contact",
+      "patterns": ["How to contact support?", "Customer service number", "Email support"],
+      "responses": ["You can contact us via our support page or call our customer service at 123-456-7890."]
+    },
+    {
+      "tag": "product_categories",
+      "patterns": ["What product categories do you have?", "List all available products", "Types of products?"],
+      "responses": ["We have the following product categories: Fruits, Vegetables, Groceries, and Laundry Products."]
+    },
+    {
+      "tag": "fruits",
+      "patterns": ["What fruits do you sell?", "List of available fruits", "Do you have fresh fruits?"],
+      "responses": ["We offer fresh fruits including Apple, Mango, and Orange. Let us know which one you're interested in!"]
+    },
+    {
+      "tag": "apple_details",
+      "patterns": ["Tell me about Apple", "Do you have Apples?", "Apple price?"],
+      "responses": ["Yes, we have fresh Apples. Price: $2 per kg. Rich in fiber and vitamins, great for a healthy diet!"]
+    },
+    {
+      "tag": "mango_details",
+      "patterns": ["Tell me about Mango", "Do you have Mangoes?", "Mango price?"],
+      "responses": ["Yes, we have sweet Mangoes. Price: $3 per kg. Mangoes are juicy and packed with vitamin C."]
+    },
+    {
+      "tag": "orange_details",
+      "patterns": ["Tell me about Orange", "Do you have Oranges?", "Orange price?"],
+      "responses": ["Yes, we have fresh Oranges. Price: $2.5 per kg. Oranges are great for boosting immunity."]
+    },
+    {
+      "tag": "vegetables",
+      "patterns": ["What vegetables do you sell?", "List of available vegetables", "Do you have fresh vegetables?"],
+      "responses": ["We offer fresh vegetables including Carrot, Spinach, and Tomato. Let us know which one you need!"]
+    },
+    {
+      "tag": "grocery_items",
+      "patterns": ["What groceries do you sell?", "List of available grocery items", "Do you have groceries?"],
+      "responses": ["We have groceries such as Rice, Wheat Flour, and Cooking Oil. Let us know which one you're looking for!"]
+    },
+    {
+      "tag": "laundry_products",
+      "patterns": ["What laundry products do you have?", "Do you sell detergents?", "Washing powder available?"],
+      "responses": ["Yes, we offer Laundry Detergent, Fabric Softener, and Stain Remover. Let us know which one you need!"]
+    },
+    {
+      "tag": "rice_details",
+      "patterns": ["Tell me about Rice", "Do you have Rice?", "Rice price?"],
+      "responses": ["Yes, we have high-quality Rice available. Price: $5 per kg. Perfect for cooking delicious meals."]
+    },
+    {
+      "tag": "detergent_details",
+      "patterns": ["Tell me about Laundry Detergent", "Do you sell washing powder?", "Detergent price?"],
+      "responses": ["Yes, we have premium Laundry Detergent. Price: $10 per pack. Cleans clothes effectively and removes stains."]
+    }
+  ]
+}
